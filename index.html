@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameeksha Gupta</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5180bd7aab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+               <li><a href="#header">Home</a></li> 
+               <li><a href="#about">About Me</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact Me</a></li>
+               <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+              <p>B.Tech Pre-Final Year Student</p>
+              <h1>Hi, I'm <span>Sameeksha</span><br>from Delhi, India.</h1>
+        </div>
+    </div>
+    </div>
+    <!-----about--- -->
+    <div id="about">
+          <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                       <img src="">
+               </div> 
+               <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1>
+                   <p>
+                    absvdvdvdd
+                   </p>
+
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+
+                   </div>
+                   <div class="tab-contents active-tab" id="Education"> <!-- for education -->
+                    <ul>
+                      <li><span>Web Developer</span><br>ABC</li>
+                      <li><span>Software Developer</span><br>ABC</li>
+                      <li><span>ML Enthusiast</span><br>ABC</li>
+                    </ul>
+                 </div>
+
+                 <div class="tab-contents" id="Experience"> <!-- for experience -->
+                    <ul>
+                      <li><span>Developer</span><br>ABC</li>
+                      <li><span>Software Developer</span><br>ABC</li>
+                      <li><span>ML Enthusiast</span><br>ABC</li>
+                    </ul>
+                 </div>
+
+                   <div class="tab-contents" id="Skills"> <!-- for skills -->
+                      <ul>
+                        <li><span>Web Developer</span><br>ABC</li>
+                        <li><span>Software Developer</span><br>ABC</li>
+                        <li><span>ML Enthusiast</span><br>ABC</li>
+                      </ul>
+                   </div>
+               </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Achievements</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-medal"></i>
+                    <h2>Web Design</h2>
+                    <p>wsdeded</p>
+                    <a href="#"> Learn More</a>
+                </div>
+                <div>
+                    <h2>Web Design2</h2>
+                    <p>wsdeded</p>
+                    <a href="#"> learn more</a>
+                </div>
+                <div>
+                    <h2>Web Design3</h2>
+                    <p>wsdeded</p>
+                    <a href="#"> learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------portfolio---->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>abcccc</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>abcccc</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>abcccc</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+               <a href="#" class="button">See More</a>
+        </div>
+     </div>
+
+     <!---contact-->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1>
+                   <p><i class="fa-solid fa-envelope"></i>email</p>
+                   <p><i class="fa-solid fa-phone"></i>phone</p>
+                   <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></i></a>
+                   </div>
+                   
+                </div>
+                <div class="contact-right">
+<form name="submit-to-google-sheet">
+    <input type="text" name="Name" placeholder="your name" required?>
+    <input type="email" name="Email" placeholder="your mail" required>
+    <textarea name="Message" rows="6" placeholder="your msg"></textarea>
+    <button type="submit" class="btn btn2">Submit</button>
+</form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright @ Sameeksha
+            </p>
+        </div>
+     </div>
+
+<script src="script.js"></script>
+</body>
+</html>
