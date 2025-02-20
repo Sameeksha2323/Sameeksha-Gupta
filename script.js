@@ -25,6 +25,18 @@
         function closemenu(){
             sidemeu.style.right= "-200px";
         }
+
+        function openModal(modalId) {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById(modalId).style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('overlay').style.display = 'none';
+            document.querySelectorAll('.modal').forEach(modal => {
+                modal.style.display = 'none';
+            });
+        }
     
 
 

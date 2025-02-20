@@ -36,19 +36,19 @@
                        <img src="">
                </div> 
                <div class="about-col-2">
-                   <h1 class="sub-title">About Me</h1>
-                   <p>
+                   <h1 class="sub-title1">About Me</h1>
+                   <p class="margin">
                     As a 3rd year B. Tech Mathematics and Computing student, I’m passionate about technology, problem-solving, and building impactful solutions. I also love exploring algorithms, software development, and system design. Beyond tech, I enjoy leadership roles, organizing events, and connecting with like-minded individuals. Always eager to learn and grow!
                    </p>
 
                    <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
-                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links active-link size" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links size" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links size" onclick="opentab('Skills')">Skills</p>
 
                    </div>
                    <div class="tab-contents active-tab" id="Education"> <!-- for education -->
-                    <ul>
+                    <ul class="size">
                       <li><span>Delhi Technological University</span><br>B. Tech 3rd Year (Mathemtics and Computing)
                     </li>
                       <li>CGPA: 9.14</li>
@@ -60,7 +60,7 @@
                  </div>
 
                  <div class="tab-contents" id="Experience"> <!-- for experience -->
-                    <ul>
+                    <ul class="size">
                       <li><span>Software Engineering STEP Intern</span><br>Google, Bangalore</li>
                       <li>June 2024-August 2024</li>
                       
@@ -68,7 +68,7 @@
                  </div>
 
                    <div class="tab-contents" id="Skills"> <!-- for skills -->
-                      <ul>
+                      <ul class="size">
                         <li><span>Programing Languages</span><br>C++, C, Python, and Golang</li>
                         <li><span>Web Development</span><br>HTML, CSS, JavaScript, React.Js, Kubernetes, Docker, and Software Development Lifecycle.</li>
                         <li><span>Artificial Intelligence</span><br>Scikit-Learn, PyTorch, Jupyter Notebook, NumPy, and Pandas.</li>
@@ -84,37 +84,67 @@
         <div class="container">
             <h1 class="sub-title">Achievements</h1>
             <div class="services-list">
-                <div>
+                <div onclick="openModal('modal1')">
                     <i class="fa-solid fa-medal"></i>
                     <h2>Palantir Future Global Scholarship</h2>
-                    <p>wsdeded</p>
-                    <a href="#"> Learn More</a>
+                    <p>Learn More</p>
                 </div>
-                <div>
-                    <h2>Google Generation Scholarship for Women in Computer Science</h2>
-                    <p>wsdeded</p>
-                    <a href="#"> learn more</a>
+                <div onclick="openModal('modal2')">
+                    <i class="fa-solid fa-medal"></i>
+                    <h2>Google Generation Scholarship for Women in CS</h2>
+                    <p>Learn More</p>
+                    
                 </div>
-                <div>
+                <div onclick="openModal('modal3')">
+                    <i class="fa-solid fa-medal"></i>
                     <h2>Amongst Top 30 in CodeZen Hackathon 2025</h2>
-                    <p>wsdeded</p>
-                    <a href="#"> learn more</a>
+                    <p>Learn More</p>
+                    
                 </div>
-                <div>
-                    <h2>Semi-Finalist in Vihaan 007 Hackathon</h2>
-                    <p>wsdeded</p>
-                    <a href="#"> learn more</a>
+                <div onclick="openModal('modal4')">
+                    <i class="fa-solid fa-medal"></i>
+                    <h2>Semi-Finalist in Vihaan 007 Hackathon 2024</h2>
+                    <p>Learn More</p>
+                   
                 </div>
-                <div>
+                <div onclick="openModal('modal5')">
+                    <i class="fa-solid fa-medal"></i>
                     <h2>Departmental Rank 6th in University</h2>
-                    <p>wsdeded</p>
-                    <a href="#"> learn more</a>
+                    <p>Learn More</p>
+                    
                 </div>
-                <div>
-                    <h2>NXP Women In Tech Mentee</h2>
-                    <p>wsdeded</p>
-                    <a href="#"> learn more</a>
+                <div onclick="openModal('modal6')">
+                    <i class="fa-solid fa-medal"></i>
+                    <h2>NXP Women In Tech Mentee, 2023</h2>
+                    <p>Learn More</p>
+                    
                 </div>
+
+                <div class="modal-overlay" id="overlay" onclick="closeModal()"></div>
+                <div class="modal" id="modal1">
+                    <p>The Palantir Future Global Scholarship is awarded to only 10 exceptional students worldwide in Computer Science. I was honored to be among the recipients, receiving $7,000 and access to mentorship and networking opportunities.</p>
+                </div>
+            
+                <div class="modal" id="modal2">
+                    <p>The Google Generation Scholarship for Women in Computer Science recognizes academic excellence and leadership in technology. I received $2,500 and the opportunity to be part of an inspiring network of women in tech.</p>
+                </div>
+
+                <div class="modal" id="modal3">
+                    <p>The Palantir Future Global Scholarship is awarded to only 10 exceptional students worldwide in Computer Science. I was honored to be among the recipients, receiving $7,000 and access to mentorship and networking opportunities.</p>
+                </div>
+
+                <div class="modal" id="modal4">
+                    <p>The Palantir Future Global Scholarship is awarded to only 10 exceptional students worldwide in Computer Science. I was honored to be among the recipients, receiving $7,000 and access to mentorship and networking opportunities.</p>
+                </div>
+
+                <div class="modal" id="modal5">
+                    <p>The Palantir Future Global Scholarship is awarded to only 10 exceptional students worldwide in Computer Science. I was honored to be among the recipients, receiving $7,000 and access to mentorship and networking opportunities.</p>
+                </div>
+
+                <div class="modal" id="modal6">
+                    <p>The Palantir Future Global Scholarship is awarded to only 10 exceptional students worldwide in Computer Science. I was honored to be among the recipients, receiving $7,000 and access to mentorship and networking opportunities.</p>
+                </div>
+
             </div>
         </div>
     </div>
